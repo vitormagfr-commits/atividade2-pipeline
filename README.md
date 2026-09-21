@@ -205,6 +205,18 @@ Com outra data, uma nova partição é criada.
 
 ![Q8 - Gold top 10](docs/prints/q8_gold_top10.png)
 
+**Execução do pipeline no PowerShell: ingestão de dados (Raw)**
+
+![Ingestão de dados](docs/prints/ingestao.png)
+
+**Execução do pipeline no PowerShell: auditoria no Athena**
+
+![Auditoria - parte 1](docs/prints/auditoria_pt1.png)
+
+![Auditoria - parte 2](docs/prints/auditoria_pt2.png)
+
+![Auditoria - parte 3](docs/prints/auditoria_pt3.png)
+
 ## 7. Problemas comuns
 
 | Sintoma | Causa provável / solução |
