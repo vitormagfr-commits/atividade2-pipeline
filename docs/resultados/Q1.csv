@@ -1,0 +1,7 @@
+tabela,arquivo_s3,tamanho_bytes,linhas
+gold_vendas_uf_categoria,s3://datalake-turma-c-vitorfreitas-10781026/gold/vendas_uf_categoria/ingest_date=2026-09-20/vendas_uf_categoria.parquet,4843,30
+quarantine_pedidos_rejeitados,s3://datalake-turma-c-vitorfreitas-10781026/quarantine/pedidos_rejeitados/data=2026-09-20/rejeitados.json,59167,437
+raw_clientes,s3://datalake-turma-c-vitorfreitas-10781026/raw/clientes/ingest_date=2026-09-20/clientes.csv,14467,200
+raw_pedidos,s3://datalake-turma-c-vitorfreitas-10781026/raw/pedidos/ingest_date=2026-09-20/pedidos.csv,121479,5000
+raw_produtos,s3://datalake-turma-c-vitorfreitas-10781026/raw/produtos/ingest_date=2026-09-20/produtos.csv,1755,50
+silver_fato_vendas,s3://datalake-turma-c-vitorfreitas-10781026/processed/fato_vendas/ingest_date=2026-09-20/fato_vendas.parquet,76667,4563
