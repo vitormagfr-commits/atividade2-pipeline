@@ -173,11 +173,37 @@ Com outra data, uma nova partição é criada.
 | Linhas em `gold/vendas_uf_categoria` | 30 |
 | Conciliação (Q2) | OK |
 
-Prints do console do Athena:
+### Evidências
 
-- `docs/prints/q1_pseudo_colunas.png`
-- `docs/prints/q2_conciliacao.png`
-- `docs/prints/q3_motivos_rejeicao.png` (opcional)
+**Bucket conectado**
+
+![Bucket conectado](docs/prints/bucket_conectado.png)
+
+**Estrutura do bucket no S3**
+
+![Estrutura do S3](docs/prints/s3_estrutura.png.png)
+
+**Q1: pseudo-colunas `"$path"` e `"$file_size"`**
+
+![Q1 - pseudo-colunas](docs/prints/q1_pseudo_colunas.png)
+
+![Q1 - pseudo-colunas (parte 2)](docs/prints/q1_pseudo_colunaspt2.png)
+
+**Q2: conciliação de integridade (Raw = Silver + Quarentena)**
+
+![Q2 - conciliação](docs/prints/q2_conciliacao.png)
+
+**Q3: rejeições por motivo**
+
+![Q3 - rejeições por motivo](docs/prints/q3_rejeicoes_por_motivo.png)
+
+**Q5: validação da Silver**
+
+![Q5 - validação da Silver](docs/prints/q5_validacao_silver.png)
+
+**Q8: Gold, top 10 por receita**
+
+![Q8 - Gold top 10](docs/prints/q8_gold_top10.png)
 
 ## 7. Problemas comuns
 
